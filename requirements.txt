@@ -1,0 +1,44 @@
+Here is a full requirements list for your code, including all libraries and dependencies needed:
+
+---
+
+openai>=0.27.0
+
+---
+
+### Additional Explanation:
+1. openai:
+   - This is the official library to interact with OpenAI's GPT-4 API. Version `0.27.0` or higher is required to ensure compatibility with recent updates.
+   
+2. `os` and `logging`:
+   - These are built-in Python modules, so they don't need to be installed.
+
+---
+
+### Installation Instructions:
+1. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. Install dependencies`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Verify Installation:
+   - To check if the dependencies are installed correctly, run:
+     ```bash
+     pip show openai
+     ```
+
+---
+
+### Environment Setup:
+Add the OpenAI API key as an environment variable:
+
+- Windows:
+  ```bash
+  set OPENAI_API_KEY="your_api_key"
+  ```
