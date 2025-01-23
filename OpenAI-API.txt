@@ -1,0 +1,34 @@
+Getting an OpenAI API key is simple and free for initial usage. Here's how you can obtain it:
+
+---
+
+### Steps to Get an OpenAI API Key:
+
+1. Create an OpenAI Account:
+   - Go to the [OpenAI website](https://platform.openai.com/).
+   - Click **Sign Up** and create an account using your email, Google account, or Microsoft account.
+
+2. Log in to the OpenAI Dashboard:
+   - After signing up, log in to the [OpenAI dashboard](https://platform.openai.com/).
+
+3. Access the API Key:
+   - Once logged in, go to the API Keys section (usually under "Personal" → "API Keys").
+   - Click Create New Secret Key to generate a new API key.
+   - Copy the API key and store it securely (you won’t be able to see it again after closing the popup).
+
+4. Set the API Key as an Environment Variable:
+   - To use the key in your project, set it as an environment variable:
+     ```bash
+     export OPENAI_API_KEY="your_api_key"  # On Linux/macOS
+     set OPENAI_API_KEY="your_api_key"     # On Windows
+     ```
+
+5. Free Usage Information:
+   - OpenAI offers free credits for new accounts, allowing you to use the API without cost until the credits are exhausted.
+   - To check your usage or remaining credits, visit the Usage section in the dashboard.
+
+---
+
+### Notes:
+- Don't Share/Publish your OpenAI API key, it is a private key for yourself.
+- Make sure to take a copy of the key and keep it safe.
